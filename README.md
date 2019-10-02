@@ -1,4 +1,4 @@
-# golearngo
+# go learn go
 
 ![https://golang.org](doc/img/logo.jpg)
 
@@ -13,9 +13,9 @@ A workshop for learning who the basic concepts of [Go](https://golang.org/) (or 
 ## Software requirements
 * you could use any OS you want (Go is available for Linux, FreeBDS, macOS and Windows);
 * Go 1.10 (or higher). Please check [this page](https://golang.org/doc/install) before you start;
-* during this workshop, we'll be using GoLand but you can choose the IDE (or the text editor) you prefer. 
+* in this workshop, we'll be using GoLand but you can choose the IDE (or the text editor) you prefer. 
     Make sure your IDE is fully working during the workshop.
-    Here are some popular examples:
+    Some popular IDEs are:
     * GoLand (preferred) : all-included JetBrain's IDE for Go. A free 30-day trial may be found [here](https://www.jetbrains.com/go/);
     * vsc + Go: Visual Studio Code includes some rich features for Go. You can find detailed instructions [here](https://code.visualstudio.com/docs/languages/go).
     * vim + vim-go (expert only, **no one will explain to you how to quit from vim**): vim-go offers a rich set of features, 
@@ -52,6 +52,6 @@ programming languages.
 
 # Author
 
-* [Dario Di Pasquale](https://dariodip.github.io)
+[Dario Di Pasquale](https://dariodip.github.io)
 
 
