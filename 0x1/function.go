@@ -1,43 +1,64 @@
 package main
 
-import ()
+import (
+	"fmt"
+	"reflect"
+	"strings"
+)
 
-const ()
+const GREET = "Hello"
 
 func main() {
+	s := hello1("Dario")
+	fmt.Println(s)
+	fmt.Println(reflect.TypeOf(s))
 }
 
-// saluta qualcuno
 func hello0(who string) string {
-	panic("non implementato")
+	return "Hello, " + who
 }
 
-// saluta qualcuno 2
 func hello1(who string) string {
-	panic("non implementato")
+	return fmt.Sprintf("Hello, %s", who)
 }
 
-// saluta qualcuno in lingue diverse
 func hello2(who string) string {
-	panic("non implementato")
+	if strings.HasPrefix(who, "Dario") {
+		return fmt.Sprintf("Grüezi, %s", who)
+	} else {
+		return fmt.Sprintf("Hello, %s", who)
+	}
 }
 
-// saluta qualcuno in lingue diverse
 func hello3(who string) string {
-	panic("non implementato")
+	var greet string
+	if strings.HasPrefix(who, "Dario") {
+		greet = "Grüezi"
+	} else {
+		greet = GREET
+	}
+	return fmt.Sprintf("%s, %s", greet, who)
 }
 
-// saluta qualcuno in diverse lingue e compulsivamente
 func hello4(who string) string {
-	panic("non implementato")
+	s := ""
+	for i := 0; i < 10; i++ {
+		s += hello3(who) + "\n"
+	}
+	return s
 }
 
-// saluta qualcuno un carattere alla volta
 func hello5(who string) string {
-	panic("non implementato")
+	s := ""
+	greeting := hello3(who)
+	for pos, ch := range greeting {
+		s += fmt.Sprintf("%d:%s\n", pos, string(ch))
+	}
+	return s
 }
 
-// saluta qualcuno senza fermarti mai
 func hello6(who string) string {
-	panic("non implementato")
+	for {
+		fmt.Println(hello3(who))
+	}
 }
