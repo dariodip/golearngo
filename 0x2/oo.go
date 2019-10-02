@@ -1,17 +1,9 @@
-package main
+package _x2
 
-import (
-	"golearngo/0x2/couple"
-)
-
-const ()
-
-// Vogliamo una lista di almeno 3 coppie di numeri primi scelti casualmente e vogliamo stamparne la media.
-// Se il numero di tentativi supera 10.000 mandiamo il programma in panic
+// Abbiamo una miniera d'oro (un file contenente o una roccia o un pezzo d'oro grezzo).
+// Abbiamo tre categorie diverse di lavoratori:
+// * il finder: è in grado di entrare nella miniera e trovare i pezzi di oro grezzo
+// * il miner: ricevute le posizioni in cui si trova l'oro grezzo, può minarli ottenendo pepite d'oro
+// * il fonditore: riceve le pepite d'oro e le fonde in un unico lingotto
 func main() {
-}
-
-// Calcola e restituisce una coppia di numeri primi
-func CoupleOfPrimes() couple.Math {
-	panic("non implementato")
 }
