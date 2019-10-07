@@ -2,13 +2,12 @@
 
 ![https://golang.org](doc/img/logo.jpg)
 
-A workshop for learning who the basic concepts of [Go](https://golang.org/) (or Golang).
+A workshop for learning the basic concepts of [Go](https://golang.org/) (or Golang).
 
 # Prerequisites
 ## Skills requirements
 * basic OO programming concepts;
 * basic concepts of memory access (i.e. pointers);
-* basic math concepts (i.e. prime numbers, average).
 
 ## Software requirements
 * you could use any OS you want (Go is available for Linux, FreeBDS, macOS and Windows);
