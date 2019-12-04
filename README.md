@@ -49,6 +49,8 @@ programming languages.
 * https://medium.com/a-journey-with-go  (tutorials for advanced users)
 * https://hub.packtpub.com/concurrency-and-parallelism-in-golang-tutorial/ (a detailed explanation about Go parallelism)
 
+For the full list of references please see: https://dariodip.github.io/gows/goref2019/
+
 # Author
 
 [Dario Di Pasquale](https://dariodip.github.io)
